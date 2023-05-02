@@ -1,0 +1,48 @@
+
+.card {
+    max-width: 200px;
+    height: 250px;
+    color: #000;
+    box-shadow: 9px 9px 4px rgba(255, 255, 255, 0.25);
+    background-color: #fff;
+}
+
+.card__title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 37px;
+}
+
+.card__price, .card__weigth{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.card__btn {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 22px;
+    color: #FFFFFF;
+    margin-top: 10px;
+    padding: 4px 59px;
+    background-color: #A14AA9;
+}
+
+.card__info {
+    text-align: center;
+}
+
+.card__img {
+
+}
+
+@media (max-width:449px) {
+    .card {
+        max-width: 400px;
+        height: 250px;
+        color: #000;
+        box-shadow: 9px 9px 4px rgba(255, 255, 255, 0.25);
+        background-color: #fff;
+    }
+}
