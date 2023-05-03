@@ -3,7 +3,17 @@ import "../reset.css"
 import './App.scss';
 import Cart from '../cart/cart';
 import Header from "../header/header"
-import Card from '../card/card';  
+import Card from '../card/card';
+import apple from "../../public/apple.jpg";
+import orange from "../../public/orange.jpg";
+import banana from "../../public/banana.jpg";
+import raspberries from "../../public/raspberries.jpg";
+import cherry from "../../public/cherry.jpg";
+import melon from "../../public/melon.jpg";
+import pear from "../../public/pear.jpg";
+import strawberry from "../../public/strawberry.jpg";
+import watermelon from "../../public/watermelon.jpg";
+import kiwi from "../../public/kiwi.jpg";
 
 function App() {
 
@@ -52,7 +62,7 @@ function App() {
             })}
           </div>
         </div>
-        <Cart className='cart' cartState={cartState} setCartState={setCartState}/>
+        <Cart className='cart' cartState={cartState} setCartState={setCartState}/>   
       </div>
     </div>
   ) 
