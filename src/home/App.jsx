@@ -16,7 +16,7 @@ import Card from '../card/card';
 // import kiwi from "../../public/kiwi.jpg";
 
 function App() {
-
+ 
   const [burgerOpen, setBurgerOpen] = useState('none')
   const [cartState, setCartState] = useState('none')
 
